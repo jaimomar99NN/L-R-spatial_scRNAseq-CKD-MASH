@@ -3,7 +3,7 @@
 
 **Background**
 
-Chronic Kidney Disease (CKD) and Metabolic dysfunction-associated steatohepatitis (MASH) are metabolic fibroinflammatory diseases. Combining single-cell (scRNAseq) and spatial transcriptomics (ST) could give unprecedented molecular disease understanding at single-cell resolution. A more comprehensive analysis of the cell-specific ligand-receptor (L-R) interactions could provide pivotal information about signaling pathways in CKD and MASH.
+Chronic Kidney Disease (CKD) and Metabolic dysfunction-associated steatohepatitis (MASH) are metabolic fibroinflammatory diseases. Combining single-cell (scRNAseq) and spatial transcriptomics (ST) could give unprecedented molecular disease understanding at single-cell resolution. A more comprehensive analysis of the cell-specific ligand-receptor (L-R) interactions could provide pivotal information about signaling pathways in CKD and MASH. To achiev this, we crated an integrative analysis framework in CKD and MASH from two available human cohorts.
 
 **Results**
 

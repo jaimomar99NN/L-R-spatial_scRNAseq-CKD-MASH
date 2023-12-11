@@ -187,14 +187,14 @@ plt.savefig(f"{results_folder}/QC_ST.png")
 
 
 import pandas as pd
-rint("\ncreating csv\n")
+print("\ncreating csv\n")
 # add 5% quantile, representing confident cell abundance, 'at least this amount is present', to adata.obs with nice names for plotting
 results = pd.DataFrame(ST_adata.obsm['q05_cell_abundance_w_sf'])
 results.columns = ST_adata.uns['mod']['factor_names']
 
 # normalize rows from 0 to 1, convert to percentage
 results = results.div(results.sum(axis=1), axis=0)
-results.to_csv(os.path.join(output_folder, 'cell_abundance_q5.csv'), index=True)
+results.to_csv(os.path.join(data_folder, 'cell_abundance_q5.csv'), index=True)
 
 
 # Find duplicate gene names in spatial data
